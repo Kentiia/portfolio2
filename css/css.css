@@ -1,0 +1,124 @@
+/* Smalere bredde */
+::-webkit-scrollbar {
+  width: 30px; /* Juster bredden her */
+}
+
+/* Bakgrunn på skrollebanen */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Skroller-håndtaket */
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 20, 35); /* Setter håndtaket til svart */
+  border-radius: 10px;
+  height: 20%;
+}
+
+
+
+
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(48, 45, 49);
+color: azure;
+padding: 10px;
+text-align: center;
+
+}
+
+nav a{
+
+
+color: #000000;
+text-decoration: none;
+margin: 0 10px;
+
+}
+
+nav{
+
+background-color: aliceblue;
+color:beige;
+padding: 10px;
+text-align: center;
+
+}
+
+footer{
+
+background-color: #333;
+color: #fff;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+
+section{
+padding: 50px;
+text-align: center;
+
+}
+
+
+.bilde1{
+position: absolute;
+left: 300px;
+height: 200px;
+width: 200px;
+
+}
+
+#section1{
+
+    background-color: rgb(25, 22, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+
+#section2 {
+   
+    width: 20%;        /* Premier pro */
+    height: auto;      
+    margin-right: 100%;
+  }
+
+  
+  #section3 { 
+   
+    width: 14%;        /* photoshop */
+    height: auto;      
+    position: relative;
+    right: 200px;
+    top: -400px;
+  }
+
+  #section4 {
+   
+    width: 34%;        /* In design */
+    height: auto;      
+    position: relative;
+    left: 300px;
+    top: -840px;
+  }
+
+  #section5 {
+   
+    width: 15%;        /* In design */
+    height: auto;      
+    position: relative;
+    left: 20px;
+    top: -100px;
+  }
